@@ -1,13 +1,16 @@
+
 .tituloHeader {
-    height: 112px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 3rem;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
 }
 
-@media (max-width: 744px) {
-    .tituloHeader {
-        height: 72px;
-    }
+.temperatureContainer {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte-titulos);
+    font-size: 1.0rem; 
 }
+

@@ -1,0 +1,47 @@
+
+.stepToStepNosso{
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 0 0;
+    column-gap: 1rem;
+}
+
+
+.steps {
+    gap: 20px; 
+    padding: 15px;
+    border-radius: 10px; 
+    margin: auto; 
+    width: 50%;
+}
+
+.steps1 {
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    text-align: center;
+}
+
+.titStep1{
+    font-family: var(--fonte-titulos);
+    font-size: 150%;
+}
+
+.descStep1{
+    font-family: var(--fonte-paragrafos);
+    font-size: 80%;
+    color: var(--cor-fonte-titulos);
+    font-style: italic;
+}
+
+.iconeStep{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    align-items: center;
+}
+

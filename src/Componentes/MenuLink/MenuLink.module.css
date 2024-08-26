@@ -1,11 +1,12 @@
 .link {
     font-size: 1.25rem;
     line-height: 1.5rem;
-    color: var(--cor-fonte-principal);
+    color: var(--cor-primaria);
+    cursor: default;
     font-family: var(--fonte-titulos);
 }
 .linkDestacado{
-    color: var(--cor-fonte-principal);
+    color: var(--cor-primaria);
 }
 
 .underline{

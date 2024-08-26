@@ -1,0 +1,40 @@
+.aboutTit {
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    margin: 10% 0 0 0;
+    column-gap: 1rem;
+}
+
+.aboutUsParag {
+    background-image: url('../../Images/fundoAbout.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: scroll;
+    font-family: var(--fonte-titulos);
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10%;
+    text-align: center;
+    position: relative;
+}
+
+.aboutUsParag::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; 
+}
+
+.aboutUsParag * {
+    position: relative;
+    z-index: 2; 
+}
