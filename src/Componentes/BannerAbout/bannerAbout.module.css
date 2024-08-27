@@ -56,6 +56,22 @@
         text-align: center;
         position: relative;
     }
+}
 
-
+@media (max-width: 414px) {
+    .aboutUsParag {
+        background-image: url('../../Images/fundoAbout.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+        background-attachment: scroll;
+        font-family: var(--fonte-titulos);
+        font-size: 70%;
+        width: 100%;
+        color: var(--branco);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        padding: 10%;
+        text-align: center;
+        position: relative;
+    }
 }

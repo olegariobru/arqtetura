@@ -36,3 +36,20 @@
     }
 
 }
+@media (max-width: 414px) {
+    .welcomeTit {
+        background-image: url('../../Images/bannerprincipal.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        background-attachment: scroll;
+        font-family: var(--fonte-titulos);
+        width: 100%;
+        font-size: 100%;
+        color: var(--branco);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        padding: 10%;
+        text-align: center;
+    }
+
+}

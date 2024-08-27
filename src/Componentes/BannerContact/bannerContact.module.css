@@ -1,10 +1,10 @@
 .titutoContato{
-height: 112px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 10% 0 5% 0;
-column-gap: 1rem;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 5% 0;
+    column-gap: 1rem;
 
 }
 
@@ -33,4 +33,13 @@ column-gap: 1rem;
     color: var(--cor-primaria);
     font-style: italic;   
     transition: transform 0.3s ease
+}
+
+@media (max-width: 414px) {
+    .iconesContato{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        margin: 0 0 30% 0;
+    }
 }

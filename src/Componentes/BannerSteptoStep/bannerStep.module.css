@@ -58,3 +58,23 @@
         font-size: 120%;
     }
 }
+
+@media (max-width: 414px) {
+    .steps {
+        gap: 20px; 
+        padding: 15px;
+        border-radius: 10px; 
+        margin: auto; 
+        width: 100%;
+    }
+    .titStep1{
+        font-family: var(--fonte-titulos);
+        font-size: 80%;
+    }
+    .descStep1{
+        font-family: var(--fonte-paragrafos);
+        font-size: 70%;
+        color: var(--cor-fonte-titulos);
+        font-style: italic;
+    }
+}
