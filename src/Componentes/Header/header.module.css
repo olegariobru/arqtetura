@@ -14,3 +14,19 @@
     font-size: 1.0rem; 
 }
 
+@media (max-width: 320px) {
+    .tituloHeader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10% 0 0 0;
+        border-bottom: 1px solid #ddd;
+    }
+    
+
+    .temperatureContainer {
+        display: none;
+    }
+    
+  }
+  
